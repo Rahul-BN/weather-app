@@ -2,7 +2,7 @@
 
 A real-time weather application built with React that provides current weather data for cities worldwide.
 
-🔗 **Live Demo:** [Add your Netlify/Vercel link here]
+🔗 **Live Demo:** [https://delicate-sprite-40a029.netlify.app/]
 
 ---
 
