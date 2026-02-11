@@ -1,16 +1,76 @@
-# React + Vite
+# ☀️ WeatherApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A real-time weather application built with React that provides current weather data for cities worldwide.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [Add your Netlify/Vercel link here]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+WeatherApp fetches live weather data from OpenWeatherMap API and displays temperature, humidity, feels like, min/max temps, and weather conditions with dynamic icons and backgrounds.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React** + Vite
+- **Material UI** 
+- **OpenWeatherMap API**
+
+---
+
+## ⚙️ Quick Start
+
+```bash
+git clone https://github.com/Rahul-BN/weather-app.git
+cd weather-app
+npm install
+```
+
+```
+Create .env:
+
+VITE_WEATHER_API_KEY=your_api_key_here
+bash
+npm run dev
+
+```
+
+## ✨ Features
+
+- City search with real-time weather data
+
+- Dynamic weather icons (sunny, cold, rainy)
+
+- Responsive Material UI design
+
+- Error handling for invalid cities
+
+- Secure API key with environment variables
+
+```
+
+## 📁 Structure
+
+text
+src/
+├── components/
+│   ├── SearchBox.jsx    # API calls & search logic
+│   ├── InfoBox.jsx      # Weather display card
+│   └── WeatherApp.jsx   # Parent component
+├── App.jsx
+└── main.jsx
+
+```
+## 👨‍💻 Developer
+
+Rahul Navi
+
+GitHub | LinkedIn
+
+
+## 📄 License
+
+MIT © 2026
+Clean, professional, no fluff. Ready to push. 🚀
